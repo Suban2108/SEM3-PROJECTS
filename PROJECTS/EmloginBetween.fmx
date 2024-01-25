@@ -1,0 +1,17 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 505
+  ClientWidth = 717
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ShowTasks: TSpeedButton
+    Position.X = 304.000000000000000000
+    Position.Y = 184.000000000000000000
+    Text = 'ShowTasks'
+    OnClick = ShowTasksClick
+  end
+end

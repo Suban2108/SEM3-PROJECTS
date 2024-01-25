@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'FirstLogin'
+  ClientHeight = 277
+  ClientWidth = 600
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ColorBox1: TColorBox
+    Color = claBlack
+    Position.Y = -24.000000000000000000
+    Size.Width = 600.000000000000000000
+    Size.Height = 301.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ColorBox2: TColorBox
+      Anchors = [akLeft, akTop, akBottom]
+      Color = claDarkgray
+      Position.Y = 24.000000000000000000
+      Size.Width = 600.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label1: TLabel
+        Align = Scale
+        AutoSize = True
+        StyledSettings = [Family, FontColor]
+        Position.X = 240.000000000000000000
+        Position.Y = 7.015384674072266000
+        Size.Width = 120.000000000000000000
+        Size.Height = 38.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 28.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'EMS'
+        TabOrder = 0
+      end
+    end
+  end
+  object Login: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 240.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Login'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end

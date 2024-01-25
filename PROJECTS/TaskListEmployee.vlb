@@ -1,0 +1,16 @@
+﻿[Login.FDQuery2]
+Coordinates=308,10,94,51
+
+[Sqlite_demoConnection]
+Coordinates=459,309,132,33
+
+[Login.FDQuery1]
+Coordinates=483,232,94,51
+
+[FDQuery2]
+Coordinates=10,232,63,51
+
+[]
+Coordinates=174,300,66,33
+Visible=True
+
